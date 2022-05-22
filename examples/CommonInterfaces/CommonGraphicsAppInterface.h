@@ -218,8 +218,6 @@ struct CommonGraphicsApp
 					cameraDistance -= yDelta * m_mouseMoveMultiplier*0.01f;
 					if (cameraDistance < 1)
 						cameraDistance = 1;
-					if (cameraDistance > 1000)
-						cameraDistance = 1000;
 				}
 				camera->setCameraDistance(cameraDistance);
 				camera->setCameraPitch(pitch);
