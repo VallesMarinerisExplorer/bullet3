@@ -18,7 +18,7 @@ SimpleCameraInternalData
 		  m_pitch(0),
 		  m_aspect(1),
 		  m_frustumZNear(0.01),
-		  m_frustumZFar(1000),
+		  m_frustumZFar(10000000),
 		  m_enableVR(false)
 	{
 		b3Transform tr;
