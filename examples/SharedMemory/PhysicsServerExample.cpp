@@ -3260,7 +3260,7 @@ btVector3 PhysicsServerExample::getRayTo(int x, int y)
 	btVector3 rayFrom = camPos;
 	btVector3 rayForward = (camTarget - camPos);
 	rayForward.normalize();
-	float farPlane = 10000.f;
+	float farPlane = 100000000.f;
 	rayForward *= farPlane;
 
 	btVector3 rightOffset;
